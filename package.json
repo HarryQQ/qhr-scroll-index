@@ -1,0 +1,41 @@
+{
+  "name": "qhr-scroll-index",
+  "version": "1.0.0",
+  "description": "get scroll index",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel src --out-dir lib",
+    "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s",
+    "test": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HarryQQ/qhr-scroll-index.git"
+  },
+  "keywords": [
+    "javascript"
+  ],
+  "author": "qhr",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/HarryQQ/qhr-scroll-index/issues"
+  },
+  "homepage": "https://github.com/HarryQQ/qhr-scroll-index#readme",
+  "dependencies": {
+    "core-js": "^3.6.5",
+    "intersection-observer": "^0.7.0",
+    "regenerator-runtime": "^0.13.5"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.9.0",
+    "@babel/preset-env": "^7.9.5",
+    "cz-conventional-changelog": "^3.1.0",
+    "eslint": "^6.8.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}
